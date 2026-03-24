@@ -105,9 +105,6 @@ cor(x = gentoo$bill_depth_mm, y = gentoo$bill_length_mm, use = "complete.obs") #
 # pearson r = 0.6433839 
 
 cor.test(x = gentoo$bill_length_mm, y = gentoo$bill_depth_mm, use = "complete.obs") # significantly correlated
-
-gentoo %>%
-  cor_test(bill_length_mm, bill_depth_mm)
 # pearson r, 0 = not at all correlated, most correlated = -/+ 1
 
 
